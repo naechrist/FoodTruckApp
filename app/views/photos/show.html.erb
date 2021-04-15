@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Photo title:</strong>
+  <%= @photo.photo_title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @photo.description %>
+</p>
+
+<p>
+  <strong>Taken on:</strong>
+  <%= @photo.taken_on %>
+</p>
+
+<p>
+  <strong>Image file name:</strong>
+  <%= @photo.image_file_name %>
+</p>
+
+<p>
+  <strong>Image content type:</strong>
+  <%= @photo.image_content_type %>
+</p>
+
+<p>
+  <strong>Image file size:</strong>
+  <%= @photo.image_file_size %>
+</p>
+
+<p>
+  <strong>Food truck:</strong>
+  <%= @photo.food_truck_id %>
+</p>
+
+<%= link_to 'Edit', edit_photo_path(@photo) %> |
+<%= link_to 'Back', photos_path %>

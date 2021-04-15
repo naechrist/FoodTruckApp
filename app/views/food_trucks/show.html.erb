@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @food_truck.name %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @food_truck.location %>
+</p>
+
+<p>
+  <strong>Menu:</strong>
+  <%= @food_truck.menu %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @food_truck.price %>
+</p>
+
+<%= link_to 'Edit', edit_food_truck_path(@food_truck) %> |
+<%= link_to 'Back', food_trucks_path %>

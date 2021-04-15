@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  photo_title: MyString
+  description: MyText
+  taken_on: 2021-04-15
+  image_file_name: MyString
+  image_content_type: MyString
+  image_file_size: 1
+  food_truck_id: 1
+
+two:
+  photo_title: MyString
+  description: MyText
+  taken_on: 2021-04-15
+  image_file_name: MyString
+  image_content_type: MyString
+  image_file_size: 1
+  food_truck_id: 1
